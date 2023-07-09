@@ -1,0 +1,13 @@
+.Page1Wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+@media(max-width: 400px) {
+    .Page1Wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}

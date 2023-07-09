@@ -1,0 +1,43 @@
+.entrance {
+    margin-right: 50px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.register {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.4;
+    margin-right: 18px;
+    text-decoration: none;
+}
+
+.btnEntrance {
+    width: 65px;
+    height: 26px;
+    background: #7CE3E1;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+
+    .btnEntrance {
+        display: none;
+    }
+
+    .register {
+        display: none;
+    }
+
+    .iconWand {
+        display: none;
+    }
+}

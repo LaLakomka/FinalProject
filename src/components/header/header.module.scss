@@ -1,0 +1,19 @@
+.header {
+    margin: 0 auto;
+    margin-left: 60px;
+}
+.headerWrapper {
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media (max-width:400px) {
+    
+    .headerWrapper {
+        margin-left: -35px;
+        width: 0px;
+    }
+}
+    

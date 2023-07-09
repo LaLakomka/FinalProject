@@ -1,0 +1,17 @@
+.accountPanel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 34vw;
+    margin-right: 50px;
+}
+
+
+@media(max-width: 400px) {
+
+    .accountPanel {
+        width: 200px;
+        height: 75px;
+        margin-right: 0px;
+    }   
+}

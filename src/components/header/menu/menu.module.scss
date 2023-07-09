@@ -1,0 +1,135 @@
+
+.box {
+
+  li {
+    list-style: none;
+    margin-top: 30px;
+  }
+  .menu {
+      display:flex;
+      align-items: center;
+      margin-left: 7vw;
+      margin-left: 150px;
+  }
+  .link {
+      margin-right: 45px;
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      cursor: pointer;
+      pointer-events: none;
+  }
+
+  .mobileBtn {
+      display: none;
+  }
+
+  .register {
+    display: none;
+  }
+
+  .btnEntrance {
+    display: none;
+  }
+  .logoNav {
+    display: none;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+
+  .box {
+    .mobileBtn {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 27px;
+      cursor: pointer;
+      z-index: 10;
+    }
+    .logoNav {
+      display: block;
+      position: absolute;
+      margin-top: -270px;
+      margin-left: -250px;
+    }
+    ul {
+      margin-top: -70px;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: fixed;
+      left: -150%;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 491px;
+      background-color: #f8f8f8;
+      z-index: 10;
+      transition: left 1s;
+      background-color: #029491;
+      padding-left: 0;
+    }
+  
+    .active {
+      left: 0;
+    }
+  
+    .menu a {
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.16px;
+      margin-top: -50px;
+    }
+
+
+    .menu {
+      display:flex;
+      align-items: center;
+      margin-left: 0vw;
+    }
+
+    .btnEntrance {
+      display: block;
+      position: absolute;
+      width: 295px;
+      height: 51.955px;
+      border-radius: 5px;
+      background: #7CE3E1;
+      border: none;
+      margin-left: -50px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.2px;
+      margin-top: 350px;
+    }
+
+    .register {
+      display: block;
+      position: absolute;
+      color: #FFF;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.16px;
+      margin-left: -50px;
+      opacity: 0.4000000059604645;
+      margin-top: 380px;
+      margin-bottom: 150px;
+    }
+  }
+}
